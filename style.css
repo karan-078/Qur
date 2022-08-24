@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400&family=Roboto:wght@300;700&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Lato', sans-serif;
+}
+
+.main_container{
+ margin: 2rem 2rem;
+ background-color:#AABBCC;
+ height: 90vh;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Qur_container{
+    background-color: #ffffff;
+    height: 65vh;
+    width: 20vw;
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+img{
+width: 17rem;
+margin-top: 1rem;
+border-radius: 12px;
+}
+.text_contnent{
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+p{
+    margin-top: 1rem;
+    color: #b4bac1;
+    font-size: 15px;
+}
+
+@media screen and (max-width:375px){
+    .Qur_container{
+      
+        height: 30vh;
+        width: 80%;
+        
+        margin: 1rem 0rem;
+       
+    }
+
+    img{
+        width: 12rem;
+        margin-top: 1rem;
+         
+    }
+
+    .main_container{
+        height: 100%;
+    }
+}
